@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Value from build type: release -->
+    <integer name="react_native_dev_server_port">8081</integer>
+    <!-- Value from build type: release -->
+    <integer name="react_native_inspector_proxy_port">8081</integer>
+    <!-- Value from product flavor: dev -->
+    <string name="build_config_package" translatable="false">com.biziboxotp.dev</string>
+
+</resources>

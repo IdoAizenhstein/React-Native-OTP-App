@@ -1,0 +1,14 @@
+com/biziboxotp/MainActivity.java
+ com.biziboxotp.MainActivity
+com/biziboxotp/BuildConfig.java
+ com.biziboxotp.BuildConfig
+com/biziboxotp/ReactNativeFlipper.java
+ com.biziboxotp.ReactNativeFlipper
+ com.biziboxotp.ReactNativeFlipper$1
+ com.biziboxotp.ReactNativeFlipper$2
+ com.biziboxotp.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/biziboxotp/MainApplication.java
+ com.biziboxotp.MainApplication
+ com.biziboxotp.MainApplication$1

@@ -1,0 +1,297 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.biziboxotp"
+4    android:versionCode="46"
+5    android:versionName="2.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+12-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-65
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+13-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+13-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-76
+14    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+14-->[com.google.android.gms:play-services-iid:17.0.0] /Users/ido/.gradle/caches/transforms-3/ea391fe6070bdac4cba58bc7d816f4e4/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+14-->[com.google.android.gms:play-services-iid:17.0.0] /Users/ido/.gradle/caches/transforms-3/ea391fe6070bdac4cba58bc7d816f4e4/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.android.installreferrer:installreferrer:1.1.2] /Users/ido/.gradle/caches/transforms-3/49002b9818be0b764712198749d6b749/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+15-->[com.android.installreferrer:installreferrer:1.1.2] /Users/ido/.gradle/caches/transforms-3/49002b9818be0b764712198749d6b749/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+16
+17    <application
+17-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml:7:5-32:19
+18        android:name="com.biziboxotp.MainApplication"
+18-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml:8:7-38
+19        android:allowBackup="false"
+19-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml:12:7-34
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.2.0] /Users/ido/.gradle/caches/transforms-3/e1dab91a6a6e8ea5d3e1106b2151e683/transformed/core-1.2.0/AndroidManifest.xml:24:18-86
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml:10:7-41
+22        android:label="@string/app_name"
+22-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml:9:7-39
+23        android:roundIcon="@mipmap/ic_launcher"
+23-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml:11:7-46
+24        android:supportsRtl="false"
+24-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml:15:7-34
+25        android:theme="@style/AppTheme" >
+25-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml:14:7-38
+26        <activity
+26-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml:16:9-27:18
+27            android:name="com.biziboxotp.MainActivity"
+27-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml:17:17-45
+28            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+28-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml:19:17-94
+29            android:label="@string/app_name"
+29-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml:18:17-49
+30            android:launchMode="singleTask"
+30-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml:20:17-48
+31            android:screenOrientation="portrait"
+31-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml:22:17-53
+32            android:windowSoftInputMode="adjustResize" >
+32-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml:21:17-59
+33            <intent-filter>
+33-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml:23:9-26:25
+34                <action android:name="android.intent.action.MAIN" />
+34-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml:24:13-65
+34-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml:24:21-62
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml:25:13-73
+36-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml:25:23-70
+37            </intent-filter>
+38        </activity>
+39
+40        <meta-data
+40-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml:28:9-31:52
+41            android:name="com.google.firebase.messaging.default_notification_color"
+41-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml:29:17-88
+42            android:resource="@color/custom_color" />
+42-->/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/src/main/AndroidManifest.xml:30:17-55
+43
+44        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+44-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-111
+44-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:18-108
+45        <service
+45-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-21:19
+46            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+46-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-95
+47            android:exported="false" >
+47-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-37
+48            <intent-filter>
+48-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-20:29
+49                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+49-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:17-78
+49-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:25-75
+50            </intent-filter>
+51        </service>
+52
+53        <receiver
+53-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:9-30:20
+54            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+54-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-96
+55            android:exported="true"
+55-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-36
+56            android:permission="com.google.android.c2dm.permission.SEND" >
+56-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-73
+57            <intent-filter>
+57-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-29:29
+58                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+58-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-81
+58-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-78
+59            </intent-filter>
+60        </receiver>
+61
+62        <meta-data
+62-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:32:9-34:36
+63            android:name="firebase_messaging_auto_init_enabled"
+63-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:33:13-64
+64            android:value="true" />
+64-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:13-33
+65        <meta-data
+65-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:9-37:36
+66            android:name="com.google.firebase.messaging.default_notification_channel_id"
+66-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-89
+67            android:value="main" />
+67-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-33
+68        <meta-data
+68-->[:react-native-firebase_app] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:36
+69            android:name="app_data_collection_default_enabled"
+69-->[:react-native-firebase_app] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-63
+70            android:value="true" />
+70-->[:react-native-firebase_app] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-33
+71
+72        <service
+72-->[:react-native-firebase_app] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-18:19
+73            android:name="com.google.firebase.components.ComponentDiscoveryService"
+73-->[:react-native-firebase_app] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:18-89
+74            android:directBootAware="true"
+74-->[com.google.firebase:firebase-common:20.0.0] /Users/ido/.gradle/caches/transforms-3/a38cc07db81e0ae33c46ee67e8262dc8/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+75            android:exported="false" >
+75-->[com.google.firebase:firebase-messaging:23.0.0] /Users/ido/.gradle/caches/transforms-3/7abac15e09d75249418b4a50fedd6b1f/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:51:13-37
+76            <meta-data
+76-->[:react-native-firebase_app] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:85
+77                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+77-->[:react-native-firebase_app] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-120
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[:react-native-firebase_app] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-82
+79            <meta-data
+79-->[com.google.firebase:firebase-messaging:23.0.0] /Users/ido/.gradle/caches/transforms-3/7abac15e09d75249418b4a50fedd6b1f/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:52:13-54:85
+80                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+80-->[com.google.firebase:firebase-messaging:23.0.0] /Users/ido/.gradle/caches/transforms-3/7abac15e09d75249418b4a50fedd6b1f/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:53:17-119
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-messaging:23.0.0] /Users/ido/.gradle/caches/transforms-3/7abac15e09d75249418b4a50fedd6b1f/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:54:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/ido/.gradle/caches/transforms-3/9cd9feedb6f9c00b7de7ff036a2c03e6/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+83                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+83-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/ido/.gradle/caches/transforms-3/9cd9feedb6f9c00b7de7ff036a2c03e6/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/ido/.gradle/caches/transforms-3/9cd9feedb6f9c00b7de7ff036a2c03e6/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-installations:17.0.0] /Users/ido/.gradle/caches/transforms-3/4bf46508284e3d611d9650483caf8b17/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+86                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+86-->[com.google.firebase:firebase-installations:17.0.0] /Users/ido/.gradle/caches/transforms-3/4bf46508284e3d611d9650483caf8b17/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-installations:17.0.0] /Users/ido/.gradle/caches/transforms-3/4bf46508284e3d611d9650483caf8b17/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+88        </service>
+89
+90        <provider
+90-->[:react-native-firebase_app] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-24:38
+91            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+91-->[:react-native-firebase_app] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-88
+92            android:authorities="com.biziboxotp.reactnativefirebaseappinitprovider"
+92-->[:react-native-firebase_app] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-86
+93            android:exported="false"
+93-->[:react-native-firebase_app] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-37
+94            android:initOrder="99" />
+94-->[:react-native-firebase_app] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-35
+95
+96        <activity
+96-->[com.google.android.gms:play-services-auth:19.2.0] /Users/ido/.gradle/caches/transforms-3/292caf592b1eb9f63c1ffa96b884400a/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+97            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+97-->[com.google.android.gms:play-services-auth:19.2.0] /Users/ido/.gradle/caches/transforms-3/292caf592b1eb9f63c1ffa96b884400a/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+98            android:excludeFromRecents="true"
+98-->[com.google.android.gms:play-services-auth:19.2.0] /Users/ido/.gradle/caches/transforms-3/292caf592b1eb9f63c1ffa96b884400a/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+99            android:exported="false"
+99-->[com.google.android.gms:play-services-auth:19.2.0] /Users/ido/.gradle/caches/transforms-3/292caf592b1eb9f63c1ffa96b884400a/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+100            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+100-->[com.google.android.gms:play-services-auth:19.2.0] /Users/ido/.gradle/caches/transforms-3/292caf592b1eb9f63c1ffa96b884400a/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+101        <!--
+102            Service handling Google Sign-In user revocation. For apps that do not integrate with
+103            Google Sign-In, this service will never be started.
+104        -->
+105        <service
+105-->[com.google.android.gms:play-services-auth:19.2.0] /Users/ido/.gradle/caches/transforms-3/292caf592b1eb9f63c1ffa96b884400a/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+106            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+106-->[com.google.android.gms:play-services-auth:19.2.0] /Users/ido/.gradle/caches/transforms-3/292caf592b1eb9f63c1ffa96b884400a/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+107            android:exported="true"
+107-->[com.google.android.gms:play-services-auth:19.2.0] /Users/ido/.gradle/caches/transforms-3/292caf592b1eb9f63c1ffa96b884400a/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+108            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+108-->[com.google.android.gms:play-services-auth:19.2.0] /Users/ido/.gradle/caches/transforms-3/292caf592b1eb9f63c1ffa96b884400a/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+109            android:visibleToInstantApps="true" />
+109-->[com.google.android.gms:play-services-auth:19.2.0] /Users/ido/.gradle/caches/transforms-3/292caf592b1eb9f63c1ffa96b884400a/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+110
+111        <activity
+111-->[com.google.android.gms:play-services-base:17.5.0] /Users/ido/.gradle/caches/transforms-3/fc39cdb3a4e03825569e651f91e94029/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+112            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+112-->[com.google.android.gms:play-services-base:17.5.0] /Users/ido/.gradle/caches/transforms-3/fc39cdb3a4e03825569e651f91e94029/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+113            android:exported="false"
+113-->[com.google.android.gms:play-services-base:17.5.0] /Users/ido/.gradle/caches/transforms-3/fc39cdb3a4e03825569e651f91e94029/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+114-->[com.google.android.gms:play-services-base:17.5.0] /Users/ido/.gradle/caches/transforms-3/fc39cdb3a4e03825569e651f91e94029/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+115
+116        <receiver
+116-->[com.google.firebase:firebase-messaging:23.0.0] /Users/ido/.gradle/caches/transforms-3/7abac15e09d75249418b4a50fedd6b1f/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:28:9-35:20
+117            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+117-->[com.google.firebase:firebase-messaging:23.0.0] /Users/ido/.gradle/caches/transforms-3/7abac15e09d75249418b4a50fedd6b1f/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:29:13-78
+118            android:exported="true"
+118-->[com.google.firebase:firebase-messaging:23.0.0] /Users/ido/.gradle/caches/transforms-3/7abac15e09d75249418b4a50fedd6b1f/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:30:13-36
+119            android:permission="com.google.android.c2dm.permission.SEND" >
+119-->[com.google.firebase:firebase-messaging:23.0.0] /Users/ido/.gradle/caches/transforms-3/7abac15e09d75249418b4a50fedd6b1f/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:31:13-73
+120            <intent-filter>
+120-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-29:29
+121                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+121-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-81
+121-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-78
+122            </intent-filter>
+123        </receiver>
+124        <!--
+125             FirebaseMessagingService performs security checks at runtime,
+126             but set to not exported to explicitly avoid allowing another app to call it.
+127        -->
+128        <service
+128-->[com.google.firebase:firebase-messaging:23.0.0] /Users/ido/.gradle/caches/transforms-3/7abac15e09d75249418b4a50fedd6b1f/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:41:9-48:19
+129            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+129-->[com.google.firebase:firebase-messaging:23.0.0] /Users/ido/.gradle/caches/transforms-3/7abac15e09d75249418b4a50fedd6b1f/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:42:13-82
+130            android:directBootAware="true"
+130-->[com.google.firebase:firebase-messaging:23.0.0] /Users/ido/.gradle/caches/transforms-3/7abac15e09d75249418b4a50fedd6b1f/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:43:13-43
+131            android:exported="false" >
+131-->[com.google.firebase:firebase-messaging:23.0.0] /Users/ido/.gradle/caches/transforms-3/7abac15e09d75249418b4a50fedd6b1f/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:44:13-37
+132            <intent-filter android:priority="-500" >
+132-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-20:29
+133                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+133-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:17-78
+133-->[:react-native-firebase_messaging] /Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:25-75
+134            </intent-filter>
+135        </service>
+136
+137        <provider
+137-->[com.google.firebase:firebase-common:20.0.0] /Users/ido/.gradle/caches/transforms-3/a38cc07db81e0ae33c46ee67e8262dc8/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+138            android:name="com.google.firebase.provider.FirebaseInitProvider"
+138-->[com.google.firebase:firebase-common:20.0.0] /Users/ido/.gradle/caches/transforms-3/a38cc07db81e0ae33c46ee67e8262dc8/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+139            android:authorities="com.biziboxotp.firebaseinitprovider"
+139-->[com.google.firebase:firebase-common:20.0.0] /Users/ido/.gradle/caches/transforms-3/a38cc07db81e0ae33c46ee67e8262dc8/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+140            android:directBootAware="true"
+140-->[com.google.firebase:firebase-common:20.0.0] /Users/ido/.gradle/caches/transforms-3/a38cc07db81e0ae33c46ee67e8262dc8/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+141            android:exported="false"
+141-->[com.google.firebase:firebase-common:20.0.0] /Users/ido/.gradle/caches/transforms-3/a38cc07db81e0ae33c46ee67e8262dc8/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+142            android:initOrder="100" />
+142-->[com.google.firebase:firebase-common:20.0.0] /Users/ido/.gradle/caches/transforms-3/a38cc07db81e0ae33c46ee67e8262dc8/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+143
+144        <meta-data
+144-->[com.google.android.gms:play-services-basement:17.5.0] /Users/ido/.gradle/caches/transforms-3/0ba8a37200366dd8dc09b220f6723fcd/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+145            android:name="com.google.android.gms.version"
+145-->[com.google.android.gms:play-services-basement:17.5.0] /Users/ido/.gradle/caches/transforms-3/0ba8a37200366dd8dc09b220f6723fcd/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+146            android:value="@integer/google_play_services_version" />
+146-->[com.google.android.gms:play-services-basement:17.5.0] /Users/ido/.gradle/caches/transforms-3/0ba8a37200366dd8dc09b220f6723fcd/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+147
+148        <service
+148-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/ido/.gradle/caches/transforms-3/7c62abacbc6ad9f1ee052b3887f70458/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+149            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+149-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/ido/.gradle/caches/transforms-3/7c62abacbc6ad9f1ee052b3887f70458/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+150            android:exported="false" >
+150-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/ido/.gradle/caches/transforms-3/7c62abacbc6ad9f1ee052b3887f70458/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+151            <meta-data
+151-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/ido/.gradle/caches/transforms-3/7c62abacbc6ad9f1ee052b3887f70458/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+152                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+152-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/ido/.gradle/caches/transforms-3/7c62abacbc6ad9f1ee052b3887f70458/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+153                android:value="cct" />
+153-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/ido/.gradle/caches/transforms-3/7c62abacbc6ad9f1ee052b3887f70458/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+154        </service>
+155        <service
+155-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/ido/.gradle/caches/transforms-3/33b56eaffab971e805acc69e421772d1/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+156            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+156-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/ido/.gradle/caches/transforms-3/33b56eaffab971e805acc69e421772d1/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+157            android:exported="false"
+157-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/ido/.gradle/caches/transforms-3/33b56eaffab971e805acc69e421772d1/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+158            android:permission="android.permission.BIND_JOB_SERVICE" >
+158-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/ido/.gradle/caches/transforms-3/33b56eaffab971e805acc69e421772d1/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+159        </service>
+160
+161        <receiver
+161-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/ido/.gradle/caches/transforms-3/33b56eaffab971e805acc69e421772d1/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+162            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+162-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/ido/.gradle/caches/transforms-3/33b56eaffab971e805acc69e421772d1/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+163            android:exported="false" />
+163-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/ido/.gradle/caches/transforms-3/33b56eaffab971e805acc69e421772d1/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+164    </application>
+165
+166</manifest>

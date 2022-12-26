@@ -1,0 +1,9 @@
+com/biziboxotp/MainActivity.java
+ com.biziboxotp.MainActivity
+com/biziboxotp/BuildConfig.java
+ com.biziboxotp.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/biziboxotp/MainApplication.java
+ com.biziboxotp.MainApplication
+ com.biziboxotp.MainApplication$1
