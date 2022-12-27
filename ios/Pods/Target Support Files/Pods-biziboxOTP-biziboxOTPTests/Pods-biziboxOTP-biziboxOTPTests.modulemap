@@ -1,6 +1,0 @@
-module Pods_biziboxOTP_biziboxOTPTests {
-  umbrella header "Pods-biziboxOTP-biziboxOTPTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

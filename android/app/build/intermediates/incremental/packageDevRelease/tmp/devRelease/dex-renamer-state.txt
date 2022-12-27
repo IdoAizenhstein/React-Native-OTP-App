@@ -1,4 +1,0 @@
-#Thu Nov 03 13:36:00 COT 2022
-base.0=/Users/ido/Documents/Work/BIZIBOX_OTP/biziboxOTP/android/app/build/intermediates/dex/devRelease/mergeDexDevRelease/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
